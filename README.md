@@ -1,2 +1,5 @@
 # Car-Maintenance-App-
-An app that stores vehicles maintenance information and produces a report, This app can also alert if you have upcoming maintenance.
+
+## Overview
+
+This app serves as a comprehensive vehicle maintenance tracker, allowing users to store and manage information about their vehicles' maintenance activities. Additionally, the app provides a reporting feature and alerts users about upcoming maintenance needs.
