@@ -66,7 +66,7 @@ def AdminFuncs(self, user):
 
 
 def MechFuncs(self, user):
-    print("")
+    print("I AM AN MECHANIC AND WILL DO MECH THINGS")
     # list open tasks
 
     # open task
