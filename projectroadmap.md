@@ -25,3 +25,6 @@ This system facilitates communication between customers and mechanics, enabling 
    - Mechanics execute assigned tasks.
 
 This system streamlines the service request process, enhancing communication and coordination between customers and mechanics.
+
+## Changes
+ - Began building initial objects and framework 
