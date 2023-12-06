@@ -52,15 +52,27 @@ class SampleAppointments:
         
         a1 = Appointment(c1,"8:00","Monday",m1)
         a2 = Appointment(c1, "9:00", "Monday",m2)
+        a3 = Appointment(c1, "10:00", "Teusday",m2)
+        a4 = Appointment(c2, "9:00", "Monday",m2)
+        a5 = Appointment(c3, "9:00", "Monday",m1)
+        a6 = Appointment(c4, "9:00", "Monday",m2)
+        a7 = Appointment(c1, "9:00", "Fridat",m1)
+        a8 = Appointment(c2, "9:00", "Monday",m2)
         sampleAppts = []
         sampleAppts.append(a1)
         sampleAppts.append(a2)
+        sampleAppts.append(a3)
+        sampleAppts.append(a4)
+        sampleAppts.append(a5)
+        sampleAppts.append(a6)
+        sampleAppts.append(a7)
+        sampleAppts.append(a8)
 
         def GetAppts(self):
             return self.sampleAppts
 
 class SampleCustomers:
-     # samople cusotmers
+     # sample cusotmers
         c1 = customer("sally", "s@s.com","metro")
         c2 = customer("bob", "s@s.com","metro")
         c3 = customer("conner", "s@s.com","metro")
