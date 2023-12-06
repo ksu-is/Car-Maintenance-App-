@@ -14,7 +14,7 @@ def main():
     print("WELCOME TO THE BROOKS PETERSON AUTO SHOP")
     print(" ")
     print("--------------------------------------------------------")
-    user = input("Please enter your user name  ")
+    user = input("Please enter your unser name  ")
     # pwd = input("Please enter your password  ")
     #print("hello" + user)
     data = sampledata.SampleData(user)
@@ -31,7 +31,7 @@ def main():
     # get list mechs
 
     ## MYNAME = data.returnSample()
-    ## print(MYNAME)j
+    ## print(MYNAME)
 
 
     pwd =""
@@ -43,7 +43,7 @@ def main():
     ##isAdmin = SampleData.adminList(data.user)
     ##print(isAdmin)
     
-    ## if admin, do admin functions
+    ## if admin, do admoin functions
     ##if(isAdmin):
     admn = Admin.Admin(cust,user,pwd)
     if(admn.checkIsAdmin(user)):
@@ -79,3 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
